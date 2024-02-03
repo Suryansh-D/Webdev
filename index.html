@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter like posting page</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <div><img src="scaler.png" height="40px"></div>
+       <div> <img src="social.png" height="40px"></div>
+    </header>
+    <div class="full">
+    <div class="content">
+        <h2><b>Post your thoughts here</b></h2>
+        <div class="tweet">
+            
+        <textarea cols="30" placeholder="Type your thoughts here" class="text" id="message"></textarea>
+        <button class="post" id="post">Post</button>
+    </div>    
+    </div>
+    <div class="comments">
+        <!-- <h1>Your Feed</h1>
+        <div class="msg">
+            <textarea cols="30"  class="text2"></textarea>  
+        </div>
+        <div class="reply">
+            <textarea cols="30" placeholder="Type your thoughts here" class="text3"></textarea> -->
+            <div class="container"> 
+                <div id="comment-container" 
+                     class="comment-container"> 
+                    <div class="all-comment"> 
+                        <div class="card"> 
+                            <span class="text"><p class="mssg"></p></span> 
+                            <span id="reply" 
+                                  class="reply"> 
+                                    Reply 
+                              </span> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

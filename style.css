@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full{
+    display: flex;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+.content{
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(234, 242, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comments{
+    height: 100vh;
+    width: 40vw;
+    background-color: white;
+}
+.tweet{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.text{
+    
+    height: 200px;
+    width: 340px;
+    border: 0px solid lightgrey;
+    border-radius: 5px;
+    resize:none;
+}
+.content h2{
+    color: rgb(74, 72, 72);
+    font-family:monospace;
+    margin-bottom: 10px;
+}
+.post{
+    
+    height: 30px;
+    width: 70px;
+    background-color: blue;
+    font-weight: 600;
+    color:white;
+    border: none;
+    border-radius: 20px;
+   cursor: pointer;
+   margin-left:260px;
+   margin-top: 50px;
+}
+.comments h1{
+    font-family: monospace;
+    color: rgb(91, 88, 88);
+}
+.msg{
+    height: 200px;
+    width: 350px;
+    border: 1px solid lightgrey;
+    margin-left: 30px;
+    border-radius: 10px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.text2{
+    height: 170px;
+    width: 320px;
+    border: 0px solid lightgrey;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    resize:none;
+}
+.reply{
+    height: 120px;
+    width: 300px;
+    border: 1px solid lightgrey;
+    margin-left: 79px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.text3{
+    height: 80px;
+    width: 280px;
+    border: 0px solid lightgrey;
+    border-radius: 5px;
+    margin-left: 18px;
+    margin-top: 10px;
+    resize:none;
+   
+}
+/* ----------------------- */
+.card { 
+	height: auto; 
+	border:1px solid lightgrey;
+	border-radius: 10px; 
+	padding: 10px; 
+	background-color: white;
+	margin-top: 10px; 
+} 
+.text { 
+	display: block; 
+	font-size: 20px; 
+	font-weight: bold; 
+} 
+.reply { 
+	color: rgb(3, 3, 3); 
+	cursor: pointer; 
+	margin-top: 5px; 
+    
+} 
+.comment-details { 
+	margin-left: 4rem; 
+	display: flex; 
+	align-items: center; 
+	margin-top: 10px; 
+} 
+.input { 
+	height: 30px; 
+	border-radius: 10px;
+    border: 1px solid lightgrey; 
+} 
+.btn { 
+	color: white; 
+	margin-left: 5px; 
+	background-color: rgb(22, 22, 210); 
+	border: 0px; 
+	border-radius: 20px; 
+	height: 30px; 
+    width:60px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+	cursor: pointer; 
+} 
+.all-comment:not(:first-child) { 
+	margin-left: 4rem; 
+}
